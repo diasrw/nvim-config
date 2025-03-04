@@ -10,7 +10,7 @@ function ColorMyPencils(color)
     require("nebulous").setup {
         variant = "midnight",
         disable = {
-            background = true,
+            background = false,
             endOfBuffer = false,
             terminal_colors = false,
         },
