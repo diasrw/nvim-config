@@ -149,6 +149,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/phimiko/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-guys"] = {
+    loaded = true,
+    path = "/home/phimiko/.local/share/nvim/site/pack/packer/start/vim-guys",
+    url = "https://github.com/ThePrimeagen/vim-guys"
   }
 }
 

@@ -43,4 +43,6 @@ return require('packer').startup(function(use)
 
   use({'ThePrimeagen/vim-be-good'})
 
+  use({"ThePrimeagen/vim-guys"})
+
 end)
