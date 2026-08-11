@@ -8,7 +8,7 @@ return {
       install_dir = vim.fn.stdpath('data') .. '/site',
     }
 
-    require('nvim-treesitter').install({ 'lua', 'python', 'javascript', 'c' })
+    require('nvim-treesitter').install({ 'lua', 'python', 'javascript', 'c', 'cpp' })
     vim.api.nvim_create_autocmd('FileType', {
         pattern = { 'lua', 'python', 'javascript', 'c' }, -- add whatever filetypes you use
         callback = function()
