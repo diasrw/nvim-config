@@ -10,7 +10,7 @@ return {
 
     require('nvim-treesitter').install({ 'lua', 'python', 'javascript', 'c', 'cpp' })
     vim.api.nvim_create_autocmd('FileType', {
-        pattern = { 'lua', 'python', 'javascript', 'c' }, -- add whatever filetypes you use
+        pattern = { 'lua', 'python', 'javascript', 'c', 'cpp' }, -- add whatever filetypes you use
         callback = function()
             vim.treesitter.start()
             vim.wo[0][0].foldenable = false
