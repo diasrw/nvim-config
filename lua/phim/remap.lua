@@ -12,6 +12,7 @@ vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set("n", "=ap", "ma=ap'a")
 vim.keymap.set("n", "<leader>zig", "<cmd>LspRestart<cr>")
+-- my own little remap to edit the end of a word
 vim.keymap.set("n", "<S-e>", "ea")
 
 vim.keymap.set("x", "<leader>p", [["_dP]])
